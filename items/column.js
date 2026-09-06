@@ -35,7 +35,8 @@ export default class Column {
     }
 
     renderItem(data) {
-        const item = new Item(data.id, data.content);        this.element.items.appendChild(item.element.root);
+        const item = new Item(data.id, data.content, data.dueDate)
+        this.element.items.appendChild(item.element.root);
         this.element.items.appendChild(Dropzone.createDropzone());
     }
 }

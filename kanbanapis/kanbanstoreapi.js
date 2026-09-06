@@ -37,7 +37,7 @@ static insertItem(columnId, content){
             throw new Error('Item not found');
         }
         item.content = newProps.content === undefined ? item.content : newProps.content;
-        
+        item.dueDate = newProps.dueDate == undefined ? item.dueDate : newProps.dueDate;
         if(
             newProps.columnId !== undefined 
             && newProps.position !== undefined
