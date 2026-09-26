@@ -3,6 +3,6 @@ const overlay = document.getElementById('scaryoverlay');
 button.addEventListener('click', () => {
     overlay.style.display = 'flex';
     setTimeout(() => {
-        window.location.href = './index.html';
+        window.location.href = './kanban.html';
     }, 1500);
 });
