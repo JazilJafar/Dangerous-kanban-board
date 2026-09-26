@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="./spoosh.css"/>
     </head>
     <body>
+        <div class="audiocontrolbar">
+            <button id="mutebtn" class="audiobtn">🔊</button>
+            <input type="range" id="volumeslider" min="0" max="1" step="0.05" value="0.7"/>
+        </div>
         <div class="container">
             <h1>Dangerous Kanban Board</h1>
             <p>A horror thmed kanban Board with using only JS html and CSS without any framework  with three figures like not started,in progress and completed</p>
@@ -23,6 +27,7 @@
         <div id="scaryoverlay" class="scaryoverlay">
             <img src="./assets/spooky.png" alt="spook man"/>
         </div>
+        <audio id="spookyaudio" src="./assets/angryi.ogg" loop autoplay></audio>
         <script src="./spooker.js"></script>
     </body>
 </html>
