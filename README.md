@@ -29,7 +29,17 @@
 
  7. **Fully Themed UI - In this website this is horror based UI with dark and flickering Horrors**
 
+ 8. **We added Also a audio to make scary but everyone make as fun**
 
+  ![alt text](./assets/sound.png)
+
+ 9. **Added a image when clicked on button to make you scare i think**
+
+ ![alt text](./assets/shit.png)
+
+ 10. **If you added 4+ item a new img will scare you**
+
+ ![alt text](./assets/somean.png)
 # Project Structure
 
 ├── index.html

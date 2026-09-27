@@ -75,6 +75,30 @@ h1 {
 .kanban__item {
     position: relative;
 }
+.kanban__column-horror {
+    width: 100%;
+    max-height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ff3344;
+    box-shadow: 0 0 15px rgba(255, 51, 68, 0.6);
+    animation: horrorpulse 2s infinite alternate;
+}
+img.kanban__column-horror {
+    width: 120px;
+    height: 1200px;
+}
+@keyframes horrorpulse {
+    0% {
+        filter: drop-shadow(0 0 4px #ff0000);
+        transform: scale(0.98);
+    }
+    100% {
+        filter: drop-shadow(0 0 12x #ff0000);
+        transform: scale(1.02);
+    }
+}
 .kanban__item-delete{
     position: absolute;
     top: 6px;
